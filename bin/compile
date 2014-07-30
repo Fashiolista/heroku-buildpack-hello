@@ -3,4 +3,5 @@
 echo "-----> Found a rungulpclient.txt"
 
 cd $1/client
+npm install
 gulp build
